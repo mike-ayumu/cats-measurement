@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>リンク一覧</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -17,6 +16,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <title>検証用ページ</title>
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -35,40 +36,19 @@
     src="https://www.facebook.com/tr?id=461452318208302&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Facebook Pixel Code -->
-
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
-    <!-- End Font -->
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Mochiy+Pop+One&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script>
-        //共通パーツ読み込み
-        $(function() {
-            $("header").load("/asset/header.html");
-        });
-    </script>
 </head>
-<body>
-    <header class="sticky-top"></header>
 
-    <div class="container">
-        <h2>ステージング</h2>
-        <div class="environmental_link environmental_link--oneline">
-            <a href="/staging/index.html">ステージング</a>
-        </div>
-        <h2>本番環境</h2>
+<body>
+    <section class="container">
+        <h2>成果ページ（imgタグ）</h2>
         <div class="environmental_link">
-            <a href="/production/index.html">第一環境</a>
-            <a href="/production2/index.html">第二環境</a>
+            <a href="#" onclick="window.close()">閉じる</a>
         </div>
-        <div>
-            成果タグの貼り方ヘルプ
-        </div>
-    </div>
+
+        <!-- imgタグ -->
+        <p>imgタグのURL</p>
+        <a href="https://act.dev-cats.ademo.jp/ac/9baz9728959157I1/?cid=134&catsPoint=1&fbEventId=event05">https://act.dev-cats.ademo.jp/ac/9baz9728959157I1/?cid=134&catsPoint=1&fbEventId=event05</a>
+        <img src="https://act.dev-cats.ademo.jp/ac/9baz9728959157I1/?cid=134&catsPoint=1&fbEventId=event05" style="display: none;">
+    </section>
 </body>
 </html>
