@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="/cats-measurement/asset/css/common.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <title>検証用ページ</title>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '461452318208302');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=461452318208302&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+    <section class="container">
+        <h2>多段階成果ページ（JSタグ）</h2>
+        <div class="environmental_link">
+            <a href="#" onclick="window.close()">閉じる</a>
+        </div>
+    </section>
+
+
+    <!-- 成果通知タグ -->
+    <script>
+        (function(){
+        var cid=10449;
+        var sid="";
+        var uid1="";
+        var uid2="";
+        var uid3="";
+        var uid4="";
+        var uid5="";
+        var uid6="";
+        var uid7="";
+        var uid8="";
+        var catsPoint="2";
+        var amount="";
+        var uqid="9baz9728959157I1";
+        var trackingUserId="";
+        var firstCookie=document.cookie;
+
+        var catsOptions = {
+            email: "test01@example.com",
+            phone: "08023146437",
+            lastName: "yamada",
+            firstName: "jiro",
+            city: "toshimaku",
+            state: "ca"
+            // fb: {eventId: ""},
+        };
+
+        var a=document.createElement("script");
+        a.src="//act.dev-cats.ademo.jp/ac/9baz9728959157I1/action.js";
+        a.id="ac_9baz9728959157I1";
+        a.addEventListener("load",function(){CATS_Action(cid, sid, uid1, uid2, uqid, uid3, uid4, uid5, uid6, uid7, uid8, catsPoint, amount, trackingUserId, firstCookie, catsOptions);});
+        document.body.appendChild(a);
+        })();
+    </script>
+    <!-- 成果通知タグ END -->
+
+
+    <!-- ヒートマップ -->
+    <script>
+    var beforeRenderDate = new Date();
+    (function(){
+    var a=document.createElement("script");
+    a.src="//act.dev-cats.ademo.jp/tr/9baz9728959157I1/app.js";
+    a.id="tr_9baz9728959157I1";
+    a.addEventListener("load",function(){CATS_TR_Start("O6H3iTPX","9baz9728959157I1","on");});
+    document.body.appendChild(a);
+    })();
+    </script>
+    <!-- ヒートマップ END -->
+</body>
+</html>

@@ -81,11 +81,13 @@ header {
     width: 1000px;
 }
 .environmental_link a:hover {
+    border: 1px solid #fff;
     text-decoration: none;
     transform: translateY(-1px);
     box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
 }
 .environmental_link a:focus {
+    border: 1px solid rgba(60,64,67,.12);
     text-decoration: none;
     transform: translateY(-1px);
     box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
