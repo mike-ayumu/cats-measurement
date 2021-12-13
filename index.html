@@ -6,6 +6,9 @@
     <meta charset="utf-8">
     <title>リンク一覧</title>
 
+    <!-- fontawesome CSS -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -57,18 +60,48 @@
     <header class="sticky-top"></header>
 
     <div class="container">
-        <h2>ステージング</h2>
-        <div class="environmental_link environmental_link--oneline">
-            <a href="/cats-measurement/staging/index.html">ステージング</a>
-        </div>
-        <h2>本番環境</h2>
-        <div class="environmental_link">
-            <a href="/cats-measurement/production/index.html">第一環境</a>
-            <a href="/cats-measurement/production2/index.html">第二環境</a>
-        </div>
-        <div>
-            成果タグの貼り方ヘルプ
-        </div>
+        <section class="container_section">
+            <h2 class="section_title"><span class="material-icons">link</span>リンク</h2>
+            <div>
+                <h3 class="section_description">ステージング</h3>
+                <div class="environmental_link environmental_link--oneline">
+                    <a href="/cats-measurement/staging/index.html">ステージング</a>
+                </div>
+            </div>
+            <div>
+                <h3 class="section_description">本番環境</h3>
+                <div class="environmental_link">
+                    <a href="/cats-measurement/production/index.html">第一環境</a>
+                    <a href="/cats-measurement/production2/index.html">第二環境</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container_section">
+            <h2 class="section_title"><span class="material-icons">help_outline</span>FBパラメーターの書き方</h2>
+            <pre class="code">
+var catsOptions = {
+    email     : "メールアドレス",
+    phone     : "電話番号",
+    gender    : "性別",
+    dob       : "生年月日",
+    lastName  : "性",
+    firstName : "名",
+    city      : "市区町村",
+    state     : "州",
+    zip       : "郵便番号",
+    country   : "国",
+    fb: {
+        eventId         : "イベントID（重複判定）",
+        external_id     : "外部ID",
+        subscription_id : "サブスクリプションID",
+        lead_id         : "リードID",
+        fb_login_id     : "FBログインID",
+        test_event_code : "テストコード",
+    },
+};
+            </pre>
+        </section>
     </div>
 </body>
 </html>
